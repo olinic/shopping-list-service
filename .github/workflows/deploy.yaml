@@ -10,10 +10,15 @@ jobs:
           java-version: '21'      # See 'Options' section below for all supported versions
           distribution: 'graalvm' # See 'Options' section below for all available distributions
           github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add Local PATH
+        run: |
+          echo "$PATH"
+          echo "$GITHUB_WORKSPACE/" >> $GITHUB_PATH
+          echo "$PATH"
       - name: Build # https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html
-        run: ./gradlew :app:buildNativeLambda
+        run: gradlew :app:buildNativeLambda
       - name: Test
-        run: ./gradlew test
+        run: gradlew test
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
