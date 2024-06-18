@@ -28,4 +28,9 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: "us-east-1"
       - name: Deploy to AWS
-        run: cdk deploy
+        run: |
+          cd infra
+          cdk synth
+          cdk deploy
+          cd ..
+          
