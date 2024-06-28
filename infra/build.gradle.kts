@@ -19,7 +19,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-engine")
 }
 application {
-    mainClass = "service.Main"
+    mainClass = "rocks.haxor.shoppinglist.Main"
 }
 tasks.withType<Test> {
     useJUnitPlatform()

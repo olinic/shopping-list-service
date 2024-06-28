@@ -1,4 +1,4 @@
-package service;
+package rocks.haxor.shoppinglist;
 
 import io.micronaut.aws.cdk.function.MicronautFunction;
 import io.micronaut.aws.cdk.function.MicronautFunctionFile;

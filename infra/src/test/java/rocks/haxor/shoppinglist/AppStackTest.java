@@ -1,4 +1,4 @@
-package service;
+package rocks.haxor.shoppinglist;
 
 import org.junit.jupiter.api.Test;
 import software.amazon.awscdk.App;

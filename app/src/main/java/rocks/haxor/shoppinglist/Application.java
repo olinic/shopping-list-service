@@ -1,4 +1,4 @@
-package service;
+package rocks.haxor.shoppinglist;
 
 import io.micronaut.runtime.Micronaut;
 

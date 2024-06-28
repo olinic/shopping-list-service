@@ -1,4 +1,4 @@
-package service;
+package rocks.haxor.shoppinglist;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayV2HTTPEvent;
 import io.micronaut.function.aws.proxy.payload2.APIGatewayV2HTTPEventFunction;
 import io.micronaut.function.aws.proxy.MockLambdaContext;
@@ -34,6 +34,6 @@ class HomeControllerTest {
         var response = handler.handleRequest(request, new MockLambdaContext());
 
         assertEquals(HttpStatus.OK.getCode(), response.getStatusCode());
-        assertEquals("{\"message\":\"Hi there\"}",  response.getBody());
+        assertEquals("{\"message\":\"Hello World\"}",  response.getBody());
     }
 }

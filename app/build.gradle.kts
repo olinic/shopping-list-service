@@ -5,7 +5,7 @@ plugins {
 }
 
 version = "0.1"
-group = "service"
+group = "rocks.haxor.shoppinglist"
 
 repositories {
     mavenCentral()
@@ -13,19 +13,21 @@ repositories {
 
 dependencies {
     annotationProcessor("io.micronaut:micronaut-http-validation")
+    annotationProcessor("io.micronaut.security:micronaut-security-annotations")
     annotationProcessor("io.micronaut.serde:micronaut-serde-processor")
     implementation("io.micronaut:micronaut-http-client-jdk")
     implementation("io.micronaut.aws:micronaut-aws-apigateway")
     implementation("io.micronaut.aws:micronaut-aws-lambda-events-serde")
     implementation("io.micronaut.cache:micronaut-cache-caffeine")
     implementation("io.micronaut.graphql:micronaut-graphql")
+    implementation("io.micronaut.security:micronaut-security-session")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
     runtimeOnly("ch.qos.logback:logback-classic")
 }
 
 
 application {
-    mainClass = "service.Application"
+    mainClass = "rocks.haxor.shoppinglist.Application"
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("21")
@@ -42,7 +44,7 @@ micronaut {
     }
     processing {
         incremental(true)
-        annotations("service.*")
+        annotations("rocks.haxor.shoppinglist.*")
     }
     aot {
     // Please review carefully the optimizations enabled below

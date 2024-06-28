@@ -58,28 +58,31 @@ cd ..
 - [Micronaut AWS Lambda Function documentation](https://micronaut-projects.github.io/micronaut-aws/latest/guide/index.html#lambda)
 
 
-## Feature http-client-jdk documentation
-
-- [Micronaut HTTP Client Jdk documentation](https://docs.micronaut.io/latest/guide/index.html#jdkHttpClient)
-
-- [https://openjdk.org/groups/net/httpclient/intro.html](https://openjdk.org/groups/net/httpclient/intro.html)
-
-
-## Feature serialization-jackson documentation
-
-- [Micronaut Serialization Jackson Core documentation](https://micronaut-projects.github.io/micronaut-serialization/latest/guide/)
-
-
 ## Feature micronaut-aot documentation
 
 - [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)
 
 
-## Feature amazon-api-gateway-http documentation
+## Feature graphql documentation
 
-- [Micronaut Amazon API Gateway HTTP documentation](https://micronaut-projects.github.io/micronaut-aws/latest/guide/index.html#amazonApiGateway)
+- [Micronaut GraphQL documentation](https://micronaut-projects.github.io/micronaut-graphql/latest/guide/index.html)
 
-- [https://docs.aws.amazon.com/apigateway/](https://docs.aws.amazon.com/apigateway/)
+
+## Feature security-session documentation
+
+- [Micronaut Security Session documentation](https://micronaut-projects.github.io/micronaut-security/latest/guide/index.html#session)
+
+
+## Feature aws-cdk documentation
+
+- [https://docs.aws.amazon.com/cdk/v2/guide/home.html](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+
+
+## Feature http-client-jdk documentation
+
+- [Micronaut HTTP Client Jdk documentation](https://docs.micronaut.io/latest/guide/index.html#jdkHttpClient)
+
+- [https://openjdk.org/groups/net/httpclient/intro.html](https://openjdk.org/groups/net/httpclient/intro.html)
 
 
 ## Feature cache-caffeine documentation
@@ -89,9 +92,11 @@ cd ..
 - [https://github.com/ben-manes/caffeine](https://github.com/ben-manes/caffeine)
 
 
-## Feature aws-cdk documentation
+## Feature amazon-api-gateway-http documentation
 
-- [https://docs.aws.amazon.com/cdk/v2/guide/home.html](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+- [Micronaut Amazon API Gateway HTTP documentation](https://micronaut-projects.github.io/micronaut-aws/latest/guide/index.html#amazonApiGateway)
+
+- [https://docs.aws.amazon.com/apigateway/](https://docs.aws.amazon.com/apigateway/)
 
 
 ## Feature aws-lambda-events-serde documentation
@@ -101,8 +106,8 @@ cd ..
 - [https://github.com/aws/aws-lambda-java-libs/tree/main/aws-lambda-java-events](https://github.com/aws/aws-lambda-java-libs/tree/main/aws-lambda-java-events)
 
 
-## Feature graphql documentation
+## Feature serialization-jackson documentation
 
-- [Micronaut GraphQL documentation](https://micronaut-projects.github.io/micronaut-graphql/latest/guide/index.html)
+- [Micronaut Serialization Jackson Core documentation](https://micronaut-projects.github.io/micronaut-serialization/latest/guide/)
 
 
