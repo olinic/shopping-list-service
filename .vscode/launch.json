@@ -11,7 +11,7 @@
             "cwd": "${workspaceFolder}",
             "request": "launch",
             "env": {
-                "MICRONAUT_ENVIRONMENTS": "local"
+                "MICRONAUT_ENVIRONMENTS": "dev"
             }
         }
     ]
